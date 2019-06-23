@@ -1,0 +1,7 @@
+homepage:
+    path: /
+    controller: App\Controller\HomeController::homepage
+
+test_rewrite:
+    path: /test-rewrite
+    controller: App\Controller\TestRewriteController::testRewrite

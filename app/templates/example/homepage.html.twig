@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Sample homepage{% endblock %}
+
+{% block body %}
+    <h1>Welcome</h1>
+    <p>This is a sample homepage.</p>
+    <p>
+        To confirm the database connection, a user was successfully fetched from the database
+        (username: <strong>{{ username }}</strong>).
+    </p>
+    <p>
+        Next, you can <a href="{{ path('test_rewrite') }}">test that rewriting is working</a>.
+    </p>
+{% endblock %}

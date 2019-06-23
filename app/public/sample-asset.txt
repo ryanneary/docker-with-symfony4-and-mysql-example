@@ -1,0 +1,3 @@
+If you are reading this in your browser, then your public assets are working correctly.
+
+Now build an app, and make it a good one ;)

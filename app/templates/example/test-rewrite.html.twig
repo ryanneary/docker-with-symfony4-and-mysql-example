@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Test rewrite{% endblock %}
+
+{% block body %}
+    <h1>Test rewrite</h1>
+    <p>Rewriting is working OK, since this non-homepage URI (<code>{{ uri }}</code>) does not contain
+        <code>{{ indexFile }}</code>.</p>
+    <p>Next, you can <a href="{{ asset('sample-asset.txt') }}">check a sample asset</a>.</p>
+{% endblock %}
